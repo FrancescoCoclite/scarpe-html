@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+.box-scarpa{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    
+}
+.box-scarpa h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#scarpa1{
+    background-color: red;
+    color: yellow;
+}
+#scarpa2{
+    background-color: green;
+    color: yellow;
+}
+#scarpa3{
+    background-color: yellow;
+    color: green;
+}
